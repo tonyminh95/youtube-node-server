@@ -24,6 +24,4 @@ const User = mongoose.model('User', new mongoose.Schema({
     }
 }));
 
-function validateUser(user) {
-    const schema =
-}
+exports.User = User;
